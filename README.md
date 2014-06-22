@@ -3,6 +3,8 @@
 Xcode plugin that reorganizes your Xcode project folder to match your Xcode groups, based on
 [synx][1].
 
+**Warning:** this plugin automatically runs *synx* on every project you open.
+
 ## Installation
 
 First
