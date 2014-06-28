@@ -109,7 +109,7 @@ static BBUSynxPlugin *sharedPlugin;
         }
 
         NSTask* synxTask = [NSTask new];
-        [synxTask setArguments:@[ project ]];
+        [synxTask setArguments:@[ @"--quiet", project ]];
         [synxTask setCurrentDirectoryPath:path];
         [synxTask setLaunchPath:@"/usr/bin/synx"];
 
